@@ -2,10 +2,12 @@
 body {
 	margin: 0;
 	padding: 0;
+	background: url(istockphoto-890584176-612x612.jpg) repeat;
+    min-height: 100%;
 }
 
 header {
-	background-color: #00AEEA;
+	background: linear-gradient(#00AEEA, white);
 	color: #eee;
 	text-align: center;
 	height: 60px;
@@ -19,7 +21,7 @@ header {
 }
 
 p {
-	font-size: 14pt;
+	font-size: 20pt;
 	font-weight: bold;
 	font-family: Sans;
 	text-align: center;
@@ -28,6 +30,8 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #808080;
 }
 
 a {
